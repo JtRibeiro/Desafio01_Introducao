@@ -1,7 +1,5 @@
 contacts = []
 
-print(len(contacts))
-
 def add_contact(contacts, name, phone, email):
   contact = {"nome": name, "telefone": phone, "email": email, "favorito": False }
   contacts.append(contact)
